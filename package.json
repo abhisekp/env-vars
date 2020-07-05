@@ -1,0 +1,33 @@
+{
+    "name": "@runkit/abhisekp_env-vars-harvest",
+    "description": "A script to download and store all environment variables from web and store in database",
+    "version": "0.0.0-master",
+    "main": "./lib/env-vars-harvest",
+    "dependencies": {
+        "@meanie/mongoose-to-json": "2.4.2",
+        "@octokit/auth-token": "2.4.2",
+        "@octokit/rest": "18.0.0",
+        "bluebird": "3.7.2",
+        "date-fns": "2.14.0",
+        "delay": "4.3.0",
+        "dotenv": "8.2.0",
+        "isomorphic-fetch": "2.2.1",
+        "lodash": "4.17.15",
+        "mongoose": "5.9.21",
+        "mongoose-delete": "^0.5.2",
+        "mongoose-hidden": "1.9.0",
+        "mongoose-lean-defaults": "0.4.1",
+        "mongoose-lean-getters": "0.1.2",
+        "mongoose-lean-virtuals": "0.6.7",
+        "p-do-whilst": "1.1.0",
+        "p-map": "4.0.0",
+        "parse-link-header": "1.0.1",
+        "qs": "6.9.4",
+        "url": "0.11.0"
+    },
+    "license": "MIT",
+    "scripts": {
+        "install": "node scripts/install.js",
+        "start": "node ."
+    }
+}
